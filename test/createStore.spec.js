@@ -1,9 +1,5 @@
 import { createStore, combineReducers } from '../'
-import {
-  addTodo,
-  throwError,
-  unknownAction
-} from './helpers/actionCreators'
+import { addTodo, throwError, unknownAction } from './helpers/actionCreators'
 import * as reducers from './helpers/reducers'
 import { from } from 'rxjs'
 import { map } from 'rxjs/operators'
