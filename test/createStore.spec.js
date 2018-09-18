@@ -1,10 +1,6 @@
 import { createStore, combineReducers } from '../'
 import {
   addTodo,
-  dispatchInMiddle,
-  getStateInMiddle,
-  subscribeInMiddle,
-  unsubscribeInMiddle,
   throwError,
   unknownAction
 } from './helpers/actionCreators'
